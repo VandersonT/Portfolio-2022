@@ -4,6 +4,7 @@
     /*Go top*/
     .goTop{
         position: fixed;
+        z-index: 3;
         bottom: 27px;
         right: 38px;
         width: 40px;
@@ -68,13 +69,12 @@
         background-position: center;
         background-size: cover;
         font-family: 'Jost', sans-serif;
-        position: relative;
-        z-index: 3;
     }
 
     /*Header Bar*/
     .headerBar{
         position: fixed;
+        z-index: 3;
         width: 100%;
         height: 80px;
         padding: 0 140px;
@@ -82,6 +82,7 @@
         align-items: center;
         justify-content: space-between;
         color: white;
+        transition: 0.3s;
     }
 
     .headerBar__menu{
@@ -200,7 +201,7 @@
     font-size: 17px;
     color: #686868;
     font-family: 'Jost', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 40px;
 }
 
@@ -214,6 +215,52 @@
     color: #343A40;
 }
 
+
+
+
+/*-----------------*/
+/*    SERVICES     */
+/*-----------------*/
+.services{
+    padding-top: 146px;
+}
+
+.services__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box__serviceSinle{
+    width: 350px;
+    min-height: 175px;
+    border: 1px solid #9E9E9E;
+    border-radius: 3px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.box__serviceSinle i {
+    color: #343A40;
+    font-size: 44px;
+    margin-right: 20px;
+}
+
+.box__serviceSinle h4 {
+    color: #343A40;
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box__serviceSinle p{
+    color: #696969;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+}
 
 
 

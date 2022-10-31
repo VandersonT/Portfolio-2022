@@ -42,7 +42,7 @@
 </head>
 <body>
     
-    <header>
+    <header id="header">
         <div class="goTop animate__animated animate__backInDown">
             <i class="fa-solid fa-chevron-up"></i>
         </div>
@@ -50,8 +50,9 @@
             <img src="./assets/images/logo.png" alt="logo vanderson" />
             <nav>
                 <ul class="headerBar__menu">
-                    <li><a class="selected" href="#s">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a class="selected" href="#header">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
@@ -64,12 +65,12 @@
                 <a href="#" class="button">CONTATO</a>
                 <a href="#" class="button">SOBRE MIM</a>
             </div>
-            <i class="fa-solid fa-chevron-down goDown"></i>
+            <a href="#about"><i class="fa-solid fa-chevron-down goDown"></i></a>
         </section>
     </header>
 
     <main>
-        <section class="about container">
+        <section id="about" class="about container">
             <div class="title">
                 <h3>Sobre</h3>
                 <h2>Conheça Um Pouco Sobre Mim</h2>
@@ -89,6 +90,41 @@
             </div>
 
         </section>
+
+        <section id="services" class="services container">
+            <div class="title">
+                <h3>Serviços</h3>
+                <h2>Alguns Dos Serviços Prestados</h2>
+                <p class="underline"></p>
+            </div>
+            <div class="services__box">
+                <div class="box__serviceSinle">
+                    <h4><i class="fa-solid fa-copy"></i> Aplicações Web</h4>
+                    <p>Desenvolvimento de sites e sistemas web profissionais, como, blogs, landing pages e e-commerce.</p>
+                </div>
+                <div class="box__serviceSinle">
+                    <h4><i class="fa-solid fa-laptop"></i> Prototipagem</h4>
+                    <p>Desenvolvimento de protótipos, buscando obter a mais alta fidelidade para o seus projetos.</p>
+                </div>
+                <div class="box__serviceSinle">
+                    <h4><i class="fa-solid fa-arrow-up-wide-short"></i> Otimização</h4>
+                    <p>Manutenção, ajustes e melhorias em sites e sistemas web já desenvolvidos. Procurando manter os padrões atuais.</p>
+                </div>
+                <div class="box__serviceSinle">
+                    <h4><i class="fa-solid fa-magnifying-glass"></i> Seo</h4>
+                    <p>Implemento conjuntos de técnicas em seu código para que seu projeto apareça melhor nas buscas.</p>
+                </div>
+                <div class="box__serviceSinle">
+                    <h4><i class="fa-solid fa-mobile-screen-button"></i> Responsividade</h4>
+                    <p>Desenvolvimento de sites e sistemas com telas que se ajustam a todos tamanhos de dispositivos.</p>
+                </div>
+                <div class="box__serviceSinle">
+                    <h4><i class="fa-solid fa-snowflake"></i> Ux Design</h4>
+                    <p>Desenho interface de forma que ela seja clara, objetiva e principalmente intuitiva para o usuário.</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
