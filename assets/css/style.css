@@ -264,6 +264,80 @@
 
 
 
+
+/*-----------------*/
+/*    FEEDBACKS    */
+/*-----------------*/
+.feedbacks{
+    padding-top: 146px;
+    padding-bottom: 50px;
+}
+
+.feedbacks__box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feedbacks__feedbackSingle{
+    width: 550px;
+    min-height: 163px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    border: 1px solid #C2C2C2;
+}
+
+.feedbacks__feedbackSingle img{
+    margin-right: 20px;
+}
+
+.feedbackSingle__info h4{
+    font-size: 20px;
+    color: #222429;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+} 
+
+.feedbackSingle__info p{
+    color: #696969;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    margin: 8px 0;
+}
+
+.stars{
+    color: gray;
+}
+
+.starActive{
+    color: #FFCC00;
+}
+
+.feedbacks__paginate{
+    display: flex;
+    justify-content: center;
+}
+
+.paginate__option{
+    width: 22px;
+    height: 10px;
+    background-color: #BCBCBC;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.paginate__option:hover,
+.paginate__option--active{
+    background-color: #343A40;;
+}
+
+
+
+
 /*-----------------*/
 /*     FOOTER      */
 /*-----------------*/
