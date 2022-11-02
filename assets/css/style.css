@@ -419,9 +419,139 @@
 }
 
 
+
+
+/*-----------------*/
+/*   PORTFOLIO     */
+/*-----------------*/
+.contact{
+    padding-top: 120px;
+}
+
+.contact__box{
+    display: flex;
+    justify-content: center;
+}
+
+.contact__box img{
+    width: 489px;
+    height: 322px;
+    margin-right: 50px;
+}
+
+.box__contactForm{
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box__contactForm textarea,
+.box__contactForm input{
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid #CACACA;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    outline: 0;
+    color: #343A40;
+}
+
+
+.box__contactForm textarea{
+    height: 133px;
+    resize: none;
+}
+
+.box__contactForm button{
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.box__contactForm button:hover{
+    background-color: #3b4148;
+}
+
+
+
+
+/*-----------------*/
+/*  FLASH_MESSAGE  */
+/*-----------------*/
+.flashMessage{
+    width: 420px;
+    min-height: 166px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 100px;
+    left: 35%;
+    z-index: 4;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.flashMessage img{
+    margin-right: 20px;
+}
+
+.flashMessage__info{
+    font-family: 'Jost', sans-serif;
+}
+
+.flashMessage__info h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+
+.flashMessage__info p{
+    font-size: 16px;
+    color: #5B5B5B;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.buttonBox{
+    width: 90%;
+    display: flex;
+    display: flex;
+    justify-content: end;
+}
+
+.flashMessage__info button{
+    background-color: #F89938;
+    border: 0;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+
 /*-----------------*/
 /*     FOOTER      */
 /*-----------------*/
+    footer{
+        padding-top: 150px;
+    }
     .footer1{
         width: 100vw;
         max-width: 100%;
