@@ -15,6 +15,9 @@
             goTopButton.style.display = "none";
     })
 
+
+
+
 /*-----------------*/
 /*    BG-HEADER    */
 /*-----------------*/
@@ -25,3 +28,31 @@ document.addEventListener('scroll', ()=>{
     else
         header.style.background = "transparent";
 })
+
+
+
+
+/*-----------------*/
+/*  PROJECT_HOVER  */
+/*-----------------*/
+let projects = document.querySelectorAll('.portfolio__portfolioSingle');
+let projectHovers = document.querySelectorAll('.portfolioSingle__hover');
+
+
+for(let i = 0; i < projects.length; i++){
+    
+    projects[i].addEventListener('mouseover', function(){
+        clearAllHovers();
+        projectHovers[i].style.display = "block";
+    });
+
+    projects[i].addEventListener('mouseout', function(){
+        projectHovers[i].style.display = "none";
+    });
+
+}
+
+function clearAllHovers(){
+    for(let j = 0; j < projects.length; j++)
+        projectHovers[j].style.display = "none";
+}

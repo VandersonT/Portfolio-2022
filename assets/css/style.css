@@ -30,6 +30,7 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 72px;
+        text-transform: capitalize;
     }
 
     .title h3{
@@ -270,7 +271,6 @@
 /*-----------------*/
 .feedbacks{
     padding-top: 146px;
-    padding-bottom: 50px;
 }
 
 .feedbacks__box{
@@ -336,6 +336,87 @@
 }
 
 
+
+
+/*-----------------*/
+/*       CALL      */
+/*-----------------*/
+.call{
+    width: 100%;
+    height: 213px;
+    margin: 179px 0;
+    background-image: url('../images/call.png');
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.call h3{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: 'Jost', sans-serif;
+}
+
+.contactButton{
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    font-family: 'Jost', sans-serif;
+    border-radius: 40px;
+    padding: 15px 25px;
+    font-size: 17px;
+}
+
+.contactButton:hover{
+    background-color: #131313;
+}
+
+
+
+
+/*-----------------*/
+/*   PORTFOLIO     */
+/*-----------------*/
+.portfolio__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.portfolio__portfolioSingle{
+    width: 355px;
+    height: 219px;
+    margin: 0 20px 150px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.portfolio__portfolioSingle h4{
+    color: #626262;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.portfolioSingle__hover{
+    display: none;
+    width: 355px;
+    height: 219px;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    bottom: 257px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 255px;
+    font-size: 50px;
+    color: #F89938;
+    cursor: pointer;
+}
 
 
 /*-----------------*/
