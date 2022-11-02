@@ -61,7 +61,7 @@
 
 
 /*-----------------*/
-/*  CONTACT_FORM   */
+/*  CONTACT_FORM   */mmi
 /*-----------------*/
     let form = document.querySelector('.box__contactForm');
     let inputs = document.querySelectorAll('.box__contactForm input');
