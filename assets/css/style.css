@@ -379,6 +379,9 @@
 /*-----------------*/
 /*   PORTFOLIO     */
 /*-----------------*/
+.models{
+    display: none;
+}
 .portfolio__box{
     display: flex;
     flex-wrap: wrap;
@@ -392,6 +395,11 @@
     margin: 0 20px 150px 20px;
     border-radius: 5px;
     text-align: center;
+}
+
+.portfolio__portfolioSingle img{
+    width: 355px;
+    height: 219px;
 }
 
 .portfolio__portfolioSingle h4{
@@ -422,10 +430,10 @@
 
 
 /*-----------------*/
-/*   PORTFOLIO     */
+/*     CONTACT     */
 /*-----------------*/
 .contact{
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 .contact__box{
@@ -479,6 +487,95 @@
 
 .box__contactForm button:hover{
     background-color: #3b4148;
+}
+
+
+
+
+/*-----------------*/
+/* PROJECT_OPENED  */
+/*-----------------*/
+.projectOpened{
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 6;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    background-color: rgb(252, 252, 252);
+    overflow-y: auto;
+    padding-bottom: 50px;
+}
+
+.projectOpened__return{
+    height: 60px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 30px;
+    color: #343A40;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 3px;
+}
+
+
+.projectOpened__header i {
+    margin-right: 6px;
+}
+
+.projectOpened__content{
+    width: 870px;
+    margin: 20px auto 0 auto;
+}
+
+.projectOpened__content h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    color: #343A40;
+}
+
+.projectOpened__content p {
+    color: #747474;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    margin: 10px 0 15px 0;
+}
+
+.content__techs span {
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.content__img img{
+    width: 468px;
+    height: 271px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.content__img{
+    display: flex;
+    flex-direction: column;
+}
+
+.content__img a{
+    width: max-content;
+    color: #1D9AE0;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1   px;
+}
+
+
+.content__img a:hover{
+    border-bottom: 1px solid #1D9AE0;
 }
 
 
